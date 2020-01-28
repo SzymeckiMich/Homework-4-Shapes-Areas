@@ -4,7 +4,6 @@ public class CalculatorTest {
         Circle circle = new Circle(6);
         Triangle triangle = new Triangle(7, 5, 9);
         Rectangle rectangle = new Rectangle(8, 7);
-        ShapeCalculator calc = new ShapeCalculator();
 
         double squareArea = square.squareArea(square);
         double squarePerimeter = square.squarePerimeter(square);
