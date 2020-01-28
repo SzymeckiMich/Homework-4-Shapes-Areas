@@ -6,4 +6,14 @@ public class Triangle {
         this.b = b;
         this.c = c;
     }
+
+    double triangleArea(Triangle triangle) {
+        double p = (triangle.a + triangle.b + triangle.c) * 0.5; // Half of triangle circumference
+        double auxiliaryVariable = p * (p - triangle.a) * (p - triangle.b) * (p - triangle.c); // Heron's formula
+        return Math.sqrt(auxiliaryVariable);
+    }
+
+    double trianglePerimeter(Triangle triangle) {
+        return triangle.a + triangle.b + triangle.c;
+    }
 }
