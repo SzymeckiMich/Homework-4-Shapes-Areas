@@ -5,14 +5,14 @@ public class CalculatorTest {
         Triangle triangle = new Triangle(7, 5, 9);
         Rectangle rectangle = new Rectangle(8, 7);
 
-        double squareArea = square.squareArea(square);
-        double squarePerimeter = square.squarePerimeter(square);
-        double circleArea = circle.circleArea(circle);
-        double circlePerimeter = circle.circlePerimeter(circle);
-        double rectangleArea = rectangle.rectArea(rectangle);
-        double rectanglePerimeter = rectangle.rectPerimeter(rectangle);
-        double triangleArea = triangle.triangleArea(triangle);
-        double trianglePerimeter = triangle.trianglePerimeter(triangle);
+        double squareArea = square.squareArea();
+        double squarePerimeter = square.squarePerimeter();
+        double circleArea = circle.circleArea();
+        double circlePerimeter = circle.circlePerimeter();
+        double rectangleArea = rectangle.rectArea();
+        double rectanglePerimeter = rectangle.rectPerimeter();
+        double triangleArea = triangle.triangleArea();
+        double trianglePerimeter = triangle.trianglePerimeter();
 
         System.out.println("Area of square = " + squareArea);
         System.out.println("Perimeter of square = " + squarePerimeter);

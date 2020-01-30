@@ -1,15 +1,26 @@
 public class Square {
-    double side;
+    private double side;
 
     public Square(double side) {
         this.side = side;
     }
 
-    double squareArea(Square square) {
-        return square.side * square.side;
+    public Square() {
     }
 
-    double squarePerimeter(Square square) {
-        return 4 * square.side;
+    public double getSide() {
+        return side;
+    }
+
+    public void setSide(double side) {
+        this.side = side;
+    }
+
+    double squareArea() {
+        return this.side * this.side;
+    }
+
+    double squarePerimeter() {
+        return 4 * this.side;
     }
 }
